@@ -1,0 +1,27 @@
+{
+  "name": "hangman",
+  "version": "1.0.0",
+  "description": "hangman game",
+  "main": "svr.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node svr.js"
+  },
+  "author": "sakriya",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "eslint-config-portsoc": "^1.0.0"
+  },
+  "eslintConfig": {
+    "extends": "portsoc",
+    "root": true,
+    "env": {
+      "browser": true
+    }
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}

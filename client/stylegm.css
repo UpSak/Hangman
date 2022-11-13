@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    background: black;
+    color: white;
+    width: 40em;
+    margin: auto;
+}
+
+button {
+    list-style-type: none;
+    margin-top: 1em;
+    margin-right: 0.5em;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    font-size: 150%;
+    border:thick blue;
+    background: blue;
+}
+    .active {
+        background: white;
+    }
+
+    canvas{
+        background: white;
+    }
+    #theword{
+        letter-spacing: 0.40rem;
+    }
